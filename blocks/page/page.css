@@ -1,0 +1,11 @@
+.page {
+  font-family: 'Inter', 'Arial', sans-serif;
+  box-sizing: border-box;
+  background-color: #E5E5E5;
+  margin: 0 auto;
+}
+
+/* временные границы для верстки*/
+div, section, table, footer, h1, h2, h3, h4, p, a, img, ul, li, iframe {
+  outline: 1px solid #f00;
+}

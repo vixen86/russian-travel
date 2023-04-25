@@ -1,0 +1,21 @@
+/* Desktop First */
+/* 768px - 1280px+ */
+.header {
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 28px;
+  margin: 0 auto;
+}
+
+/* 320px - 767px */
+@media screen and (max-width: 767px) {
+  .header {
+    height: 58px;
+    padding-top: 16px;
+  }
+}
