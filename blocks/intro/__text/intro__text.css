@@ -1,0 +1,26 @@
+/* Desktop First */
+/* 1024px - 1280px+ */
+.intro__text {
+  max-width: 690px;
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+
+/* 768px - 1023px */
+@media screen and (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+/* 320px - 767px */
+@media screen and (max-width: 767px) {
+  .intro__text {
+    max-width: 288px;
+  }
+}

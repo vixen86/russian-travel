@@ -1,0 +1,7 @@
+.link-blackout {
+  transition: opacity .5s ease;
+}
+
+.link-blackout:hover {
+  opacity: 0.8;
+}

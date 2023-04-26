@@ -1,0 +1,27 @@
+/* Desktop First */
+/* 1280px+ */
+.page__section_size_xl {
+  padding: 0 148px 0 148px;
+  /* узкий контейнер - Narrow */
+}
+
+/* 1024px - 1279px */
+@media screen and (max-width: 1279px) {
+  .page__section_size_xl {
+    padding: 0 48px 0 48px;
+  }
+}
+
+/* 768px - 1023px */
+@media screen and (max-width: 1023px) {
+  .page__section_size_xl {
+    padding: 0;
+  }
+}
+
+/* 320px - 767px */
+@media screen and (max-width: 767px) {
+  .page__section_size_xl {
+    padding: 0;
+  }
+}
