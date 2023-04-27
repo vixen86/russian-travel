@@ -1,0 +1,7 @@
+/* Desktop First */
+/* 768px - 1023px */
+@media screen and (max-width: 1023px) {
+  .page__section_size_m {
+    padding: 0;
+  }
+}
