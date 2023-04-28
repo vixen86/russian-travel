@@ -20,7 +20,7 @@ ___
 * Media Queries
 
 **GitHub Pages**
-* [Ссылка на проект на GitHub](#)
+* [Ссылка на проект на GitHub](https://github.com/vixen86/russian-travel)
 
 **Figma**
 
