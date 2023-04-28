@@ -1,8 +1,6 @@
-.lead {
-  width: 100%;
-  box-sizing: border-box;
+.cover__links {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
