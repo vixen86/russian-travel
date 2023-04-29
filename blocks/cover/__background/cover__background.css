@@ -22,7 +22,7 @@
 
 
 .cover__background:hover {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('/images/cover-trains.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/images/cover-trains.jpg');
 }
 
 /* 1024px - 1279px */
