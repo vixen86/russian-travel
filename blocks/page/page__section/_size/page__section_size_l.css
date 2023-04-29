@@ -1,7 +1,0 @@
-/* Desktop First */
-/* 1024px - 1279px */
-@media screen and (max-width: 1279px) {
-  .page__section_size_l {
-    padding: 0 48px 0 48px;
-  }
-}

@@ -1,3 +1,5 @@
+/* Desktop First */
+/* 1024px - 1280px+ */
 .lead__caption {
   font-size: 10px;
   line-height: 14px;
@@ -7,4 +9,18 @@
   text-transform: uppercase;
   margin: 0;
   padding: 8px 0 0 0;
+}
+
+/* 768px - 1023px */
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    padding: 8px 0 0 24px;
+  }
+}
+
+/* 320px - 767px */
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    padding: 8px 0 0 16px;
+  }
 }
