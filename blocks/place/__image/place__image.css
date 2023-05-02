@@ -2,6 +2,9 @@
 /* 1280px+ */
 .place__image {
   max-width: 460px;
+  display: block;
+  object-fit: contain;
+  object-position: center center;
   margin: 0;
   padding: 0;
 }

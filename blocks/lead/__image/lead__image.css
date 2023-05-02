@@ -2,6 +2,9 @@
 /* 1280px+ */
 .lead__image {
   max-width: 984px;
+  display: block;
+  object-fit: contain;
+  object-position: center center;
   margin: 0;
   padding: 64px 0 0 0;
 }
@@ -18,7 +21,6 @@
 @media screen and (max-width: 1023px) {
   .lead__image {
     max-width: 768px;
-    padding: 56px 0 0 0;
   }
 }
 

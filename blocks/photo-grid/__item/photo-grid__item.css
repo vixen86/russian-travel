@@ -2,6 +2,9 @@
 /* 1280px+ */
 .photo-grid__item {
   max-width: 284px;
+  display: block;
+  object-fit: contain;
+  object-position: center center;
   margin: 0;
   padding: 0;
 }

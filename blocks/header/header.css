@@ -9,7 +9,15 @@
   justify-content: space-between;
   align-items: flex-end;
   padding-top: 28px;
+  padding-bottom: 56px;
   margin: 0 auto;
+}
+
+/* 320px - 1279px */
+@media screen and (max-width: 1279px) {
+  .header {
+    padding-bottom: 48px;
+  }
 }
 
 /* 320px - 767px */
