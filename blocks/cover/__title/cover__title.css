@@ -28,9 +28,12 @@
 /* 320px - 767px */
 @media screen and (max-width: 767px) {
   .cover__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
+    /*max-width: 288px;*/
+    max-width: calc((100vw + 696.64px) / 3.53);
+    /*font-size: 32px;*/
+    font-size: calc((100vw - 320px) / (1280 - 320) * (72 - 32) + 32px);
+    /*line-height: 35px;*/
+    line-height: calc((100vw - 320px) / (1280 - 320) * (76 - 35) + 35px);
     padding: 33px 0 0 0;
   }
 }

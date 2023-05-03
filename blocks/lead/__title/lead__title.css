@@ -1,5 +1,5 @@
 /* Desktop First */
-/* 1280px+ */
+/* 320px - 1280px+ */
 .lead__title {
   max-width: 720px;
   font-size: 96px;
@@ -9,21 +9,16 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  /*padding: 56px 0 0 0;*/
 }
-
-/* 320px - 1279px */
-/*@media screen and (max-width: 1279px) {
-  .lead__title {
-    padding: 48px 0 0 0;
-  }
-}*/
 
 /* 320px - 767px */
 @media screen and (max-width: 767px) {
   .lead__title {
-    max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
+    /*max-width: 288px;*/
+    max-width: calc((100vw + 318.4px) / 2.22);
+    /*font-size: 40px;*/
+    font-size: calc((100vw - 320px) / (1280 - 320) * (96 - 40) + 40px);
+    /*line-height: 44px;*/
+    line-height: calc((100vw - 320px) / (1280 - 320) * (100 - 44) + 44px);
   }
 }

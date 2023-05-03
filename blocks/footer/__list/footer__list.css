@@ -18,10 +18,6 @@
   .footer__list {
     padding: 0 0 32px 0;
   }
-}
-
-/* 320px - 767px */
-@media screen and (max-width: 767px) {
   .footer__list:last-child {
     padding-bottom: 0;
   }

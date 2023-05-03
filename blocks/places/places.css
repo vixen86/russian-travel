@@ -1,5 +1,13 @@
 /* Desktop First */
 /* 1280px+ */
+@media screen and (min-width: 1280px) {
+  .places {
+    padding-left: 148px;
+    padding-right: 148px;
+  }
+}
+
+/* 1024px - 1279px */
 .places {
   width: 100%;
   box-sizing: border-box;
