@@ -1,7 +1,9 @@
 /* Desktop First */
 /* 1280px+ */
 .cover__background {
-  min-width: 1184px;
+  max-width: 1184px;
+  min-height: 740px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -15,10 +15,10 @@
 @media screen and (max-width: 767px) {
   .lead__title {
     /*max-width: 288px;*/
-    max-width: calc((100vw + 318.4px) / 2.22);
+    /*max-width: calc((100vw - 20.48px) / 1.04);*/
     /*font-size: 40px;*/
-    font-size: calc((100vw - 320px) / (1280 - 320) * (96 - 40) + 40px);
+    font-size: calc((100vw - 320px) / (768 - 320) * (96 - 40) + 40px);
     /*line-height: 44px;*/
-    line-height: calc((100vw - 320px) / (1280 - 320) * (100 - 44) + 44px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (100 - 44) + 44px);
   }
 }

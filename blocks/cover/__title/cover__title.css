@@ -8,32 +8,33 @@
   font-style: normal;
   text-align: center;
   margin: 0;
-  padding: 245px 0 0 0;
+  /*padding: 245px 0 0 0;*/
+  padding: 0;
 }
 
 /* 1024px - 1279px */
-@media screen and (max-width: 1279px) {
+/*@media screen and (max-width: 1279px) {
   .cover__title {
     padding: 195px 0 0 0;
   }
-}
+}*/
 
 /* 768px - 1023px */
-@media screen and (max-width: 1023px) {
+/*@media screen and (max-width: 1023px) {
   .cover__title {
     padding: 115px 0 0 0;
   }
-}
+}*/
 
 /* 320px - 767px */
 @media screen and (max-width: 767px) {
   .cover__title {
     /*max-width: 288px;*/
-    max-width: calc((100vw + 696.64px) / 3.53);
+    /*max-width: calc((100vw + 155.2px) / 1.65);*/
     /*font-size: 32px;*/
-    font-size: calc((100vw - 320px) / (1280 - 320) * (72 - 32) + 32px);
+    font-size: calc((100vw - 320px) / (768 - 320) * (72 - 32) + 32px);
     /*line-height: 35px;*/
-    line-height: calc((100vw - 320px) / (1280 - 320) * (76 - 35) + 35px);
-    padding: 33px 0 0 0;
+    line-height: calc((100vw - 320px) / (768 - 320) * (76 - 35) + 35px);
+    /*padding: 33px 0 0 0;*/
   }
 }
